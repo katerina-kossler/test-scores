@@ -128,6 +128,6 @@ def redirect_to_root(e):
 if __name__ == "__main__":
     app.debug = True 
     
-    app.run(port=6000, host='127.0.0.1')
+    app.run(port=5000, host='0.0.0.0')
     app.run()
     read_stream()
